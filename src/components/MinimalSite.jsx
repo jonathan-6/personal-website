@@ -83,7 +83,7 @@ const MinimalSite = () => {
           <div className="mb-16" id="contact">
             <h2 className="font-serif text-base mb-6 font-semibold">{"Contact"}</h2>
             <p className="font-serif text-base">
-              {"Email me at "}<a href="mailto:jonathan0marks@gmail.com" className="underline hover:no-underline">{"jonathan0marks@gmail.com"}</a><br />
+              {"Email me at "}<a href="mailto:jonathan3marks@gmail.com" className="underline hover:no-underline">{"jonathan3marks@gmail.com"}</a><br />
               {"Connect with me on "}<a href="https://www.linkedin.com/in/jonathanmarks2/" className="underline hover:no-underline">{"LinkedIn"}</a>
             </p>
           </div>
