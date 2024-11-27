@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #fafaf9;
+  }
+
+/* Article images and figures */
+.prose figure {
+    @apply my-12;  /* Generous margin above and below image+caption groups */
+  }
+  
+  .prose img {
+    @apply w-full rounded-sm;  /* Full width images with subtle rounding */
+    @apply bg-gray-50;  /* Light background while loading */
+    @apply border border-gray-100;  /* Subtle border */
+  }
+  
+  .prose figcaption {
+    @apply font-serif;  /* Lora font to match your site */
+    @apply text-sm text-gray-500;  /* Smaller, muted text */
+    @apply text-center mt-3;  /* Centered with space after image */
+    @apply max-w-2xl mx-auto;  /* Same max width as your content */
+    @apply px-4;  /* Small padding for mobile */
+  }
+  
+  /* Optional: Add hover state to images */
+  .prose figure:hover img {
+    @apply border-gray-200;
+  }
+  
+  /* Optional: Style links within captions */
+  .prose figcaption a {
+    @apply underline hover:no-underline;
+  }
