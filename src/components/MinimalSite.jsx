@@ -105,7 +105,7 @@ const MinimalSite = () => {
                  <li>{"At Deloitte, I led the development of Sensingbridge, an NLP-powered AI platform that processed hundreds of thousands of data sources to build knowledge graphs and surface insights for federal and enterprise clients. This work contributed to a 2017 Congressional paper on the foundations and future of AI."}</li>
                  <li>{"I've shaped product strategy for some of America's largest companies: helping Anthem reimagine clinical search experiences and guiding Marriott's product innovation through COVID-19."}</li>
                  <li>{"Most recently, I've focused on bringing scientific research into everyday products – from biological age testing at Tally Health to relationship science at Ready Platform. I'm passionate about making complex technology accessible and engaging."}</li>
-                 <li>{"I'm usually learning something new – currently piano – or exploring different cultures through food and travel, from Vietnam's street food to Portugal's pastéis de nata."}</li>
+                 <li>{"I'm usually learning something new – currently building this site – or exploring different cultures through food and travel, from Vietnam's street food to Portugal's pastéis de nata."}</li>
              </ul>
           </div>
   
