@@ -24,11 +24,18 @@ const BlogPost = ({ post }) => {
     </time>
   </header>
   
-  <div 
-    className="[&_figure.reduced-width]:w-3/4 [&_figure.reduced-width]:mx-auto prose-img:max-w-full prose-img:!w-auto prose-figure:my-12 prose-figcaption:text-sm prose-figcaption:text-gray-500 prose-figcaption:text-center prose-p:text-black prose-ol:text-black prose-ol:font-serif prose-ol:text-base"
-    dangerouslySetInnerHTML={{ __html: post.content }}
-  />
+    <div 
+  className="[&_figure.reduced-width]:w-3/4 [&_figure.reduced-width]:mx-auto prose-img:max-w-full prose-img:!w-auto prose-figure:my-12 prose-figcaption:text-sm prose-figcaption:text-gray-500 prose-figcaption:text-center prose-p:text-black prose-p:font-serif prose-ul:font-serif prose-ul:text-black prose-li:marker:text-black prose-h2:font-serif"
+  dangerouslySetInnerHTML={{ __html: post.content }}
+    />
 </article>
+        <Link 
+          to="/" 
+          className="font-serif text-base font-normal no-underline hover:underline mt-16 mb-16 inline-block"
+        >
+          ← back to home
+        </Link>
+
       </main>
     </div>
   )

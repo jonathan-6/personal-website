@@ -1,8 +1,14 @@
 [
-    {
-      "slug": "printer-paradox",
-      "title": "The printer paradox: Building product complexity that users actually want",
-      "date": "2024-11-26",
-      "excerpt": "A reflection on how we build features users actually want, through lessons learned from product development at Ready Platform and Tally Health."
-    }
-  ]
+  {
+    "slug": "printer-paradox",
+    "title": "The printer paradox: Building product complexity that users actually want",
+    "date": "2024-11-26",
+    "excerpt": "A reflection on how we build features users actually want, through lessons learned from product development at Ready Platform and Tally Health."
+  },
+  {
+    "slug": "product-approach",
+    "title": "My approach to product: Making complex feel easy",
+    "date": "2024-12-03",
+    "excerpt": "How I balance empathy, strategy, and delivery to create meaningful user experiences."
+  }
+]

@@ -9,12 +9,9 @@ const MinimalSite = () => {
     useEffect(() => {
         const loadPosts = async () => {
             try {
-                console.log('Loading posts...') // Debug log
                 const allPosts = await getAllPosts()
-                console.log('Posts loaded:', allPosts) // Debug log
                 setPosts(allPosts)
             } catch (error) {
-                console.error('Error loading posts:', error)
                 setError(error.message)
             }
         }
@@ -41,13 +38,6 @@ const MinimalSite = () => {
             <p className="font-serif text-base mb-6">
               {"Building products has given me countless insights and memorable conversations. I've created this space to share these learnings and continue the dialogue."}
             </p>
-
-            {/* 
-            <p className="font-serif text-base text-gray-600 leading-relaxed">
-              {"Read more about me, take a look at my work and background, or "}<a href="#contact" className="underline hover:no-underline">{"get in touch"}</a>.
-            </p>
-            */}
-
           </div>
   
           {/* Latest Blog Posts */}
@@ -108,8 +98,6 @@ const MinimalSite = () => {
                  <li>{"I'm usually learning something new – currently building this site – or exploring different cultures through food and travel, from Vietnam's street food to Portugal's pastéis de nata."}</li>
              </ul>
           </div>
-  
-
         </main>
       </div>
     );
