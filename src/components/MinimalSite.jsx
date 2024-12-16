@@ -1,21 +1,27 @@
 import { Link } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import { getAllPosts } from '../lib/posts'
+import { getAllWork } from '../lib/work'
 
 const MinimalSite = () => {
     const [posts, setPosts] = useState([])
+    const [work, setWork] = useState([])
     const [error, setError] = useState(null)
 
     useEffect(() => {
-        const loadPosts = async () => {
+        const loadContent = async () => {
             try {
-                const allPosts = await getAllPosts()
+                const [allPosts, allWork] = await Promise.all([
+                    getAllPosts(),
+                    getAllWork()
+                ])
                 setPosts(allPosts)
+                setWork(allWork)
             } catch (error) {
                 setError(error.message)
             }
         }
-        loadPosts()
+        loadContent()
     }, [])
     
     if (error) {
@@ -39,6 +45,32 @@ const MinimalSite = () => {
               {"Building products has given me countless insights and memorable conversations. I've created this space to share these learnings and continue the dialogue."}
             </p>
           </div>
+
+           {/* Latest Work */}
+        <div className="mb-16">
+          <h2 className="font-serif text-base mb-6 font-semibold">{"Selected work"}</h2>
+          <div className="space-y-8">
+            {work.map(project => (
+              <article key={project.slug} className="group">
+                {/*<div className="mb-2">
+                  <time className="font-serif text-base text-gray-500">
+                    {project.timeline}
+                  </time>
+                </div>*/}
+                <h3 className="font-serif text-base mb-2">
+                  <Link 
+                    to={`/work/${project.slug}`}
+                    className="underline hover:no-underline"
+                  >
+                    {project.title}
+                  </Link>
+                </h3>
+                <p className="font-serif text-base text-gray-600">{project.subtitle}</p>
+              </article>
+            ))}
+          </div>
+        </div>
+
   
           {/* Latest Blog Posts */}
           <div className="mb-16">

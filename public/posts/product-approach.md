@@ -20,7 +20,7 @@ Great products are built with great people. Empathy starts with understanding th
 
 - The best strategies can be distilled into one sentence
 - Strategy should unite teams and provide a backbone for prioritization – temporary slowdowns are acceptable, permanent ones aren't
-- Strategy cycles should match company maturity – six to eight weeks for startups, quarterly to yearly for established products
+- Strategy review cycles should match company maturity – six to eight weeks for startups, quarterly to yearly for established products
 
 Strategy is about creating clarity that enables action. I approach it through the product strategy stack – understanding what must come before strategy (mission, vision, user needs, market context) and what follows (goals, roadmap, tactics, execution) ensures strategy serves its true purpose: accelerating teams rather than slowing them down. Having worked across startups, scale-ups, and enterprises, I've learned how strategy needs to flex based on the company stage. At Ready Platform, we operated in tight monthly strategy cycles as we found product-market fit and launched our early product. At Deloitte, we worked with longer semi-annual horizons for established products. The key is ensuring strategy unites teams and guides prioritization without becoming a barrier to progress.
 
