@@ -9,7 +9,7 @@ type: "case-study"
 ---
 
 <figure>
-  <img src="/public/assets/case-studies/Ready1.png" alt="Ready Platform app overview showing reflection interface" />
+  <img src="/assets/case-studies/Ready1.png" alt="Ready Platform app overview showing reflection interface" />
   <figcaption>Reflective dating combines relationships with personal growth</figcaption>
 </figure>
 
@@ -40,7 +40,7 @@ We developed an innovative "reflective dating" experience that combined traditio
 - Built content library (quotes, essays, audio) that complemented reflection themes
 
 <figure>
-  <img src="/public/assets/case-studies/Ready2.png" alt="Ready Platform screens showing reflection curriculum and questions interface" />
+  <img src="/assets/case-studies/Ready2.png" alt="Ready Platform screens showing reflection curriculum and questions interface" />
   <figcaption>The daily reflection curriculum helped users understand relationships better</figcaption>
 </figure>
 
@@ -51,7 +51,7 @@ We developed an innovative "reflective dating" experience that combined traditio
 - Created in chat experiences to deepen conversations based on our relationship curriculum
 
 <figure>
-  <img src="/public/assets/case-studies/Ready3.png" alt="Ready Platform screens showing dating and chat experience" />
+  <img src="/assets/case-studies/Ready3.png" alt="Ready Platform screens showing dating and chat experience" />
   <figcaption>Chat activites help to foster better connections</figcaption>
 </figure>
 
@@ -62,7 +62,7 @@ We developed an innovative "reflective dating" experience that combined traditio
 - Built foundation for future AI-powered personalization
 
 <figure>
-  <img src="/public/assets/case-studies/Ready4.png" alt="Ready Platform screens showing content library and essays" />
+  <img src="/assets/case-studies/Ready4.png" alt="Ready Platform screens showing content library and essays" />
   <figcaption>Content library helped build retention and teach relationship science</figcaption>
 </figure>
 
