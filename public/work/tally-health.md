@@ -73,7 +73,7 @@ Our initial hypothesis separated users into distinct groups: biohackers seeking 
 ## 2. Simplify navigation
 Through analytics analysis and user interviews, we quickly identified where users were dropping off or missing valuable features. This led to a focused redesign of our navigation system, with an emphasis on intuitive content discovery. By restructuring around user learning patterns, we saw a 20% increase in feature engagement, particularly in our research section.
 
-## 3. Content Discovery Framework
+## 3. Progressive discovery
 The success of our platform hinged on helping users find the right information at the right time. We developed a content strategy that:
 - Started with core test results and immediate actions
 - Provided clear pathways to deeper scientific content
