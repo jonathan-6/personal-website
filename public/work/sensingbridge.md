@@ -53,7 +53,7 @@ Through user research and stakeholder interviews, we identified several key chal
 
 ## Key Insights: Making AI work for end users
 
-Building a health platform that could serve both technical experts and mainstream users revealed insights about engagement and accessibility:
+Building an AI platform in 2017 was challenging without the open source models today. Focusing on user experience and quality information helped us prioritize what to work on and releaved a few insights:
 
 ## 1. Expert knowledge is critical
 Initially tried letting machine learning discover patterns independently. Through user research, we learned that combining AI with expert knowledge early and often through structured workshops dramatically improved our results. This helped us build features that found genuine insights rather than just statistical patterns.
