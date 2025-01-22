@@ -1,6 +1,6 @@
 ---
 title: "Ready Platform"
-subtitle: "Building a relationship science based AI dating app"
+subtitle: "Building a mental health based AI dating app"
 platform: "iOS & Web"
 timeline: "Sep 2023 - Nov 2024"
 role: "Head of Product"
@@ -16,7 +16,7 @@ type: "case-study"
 
 ## Company
 
-Ready Platform is an AI-powered relationship app that combines behavioral science with machine learning to foster deeper connections. The company's vision is to guide individuals and couples to build healthier, more fulfilling relationships through personal growth. By blending relational science with AI-driven insights, Ready aims to create a new category of relationship technology that supports users throughout their entire relationship journey, not just during the initial matching phase.
+Ready Platform is an AI-powered mental health app that combines behavioral science with machine learning to foster deeper connections. The company's vision is to guide individuals and couples to build healthier, more fulfilling relationships through personal growth. By blending relational science with AI-driven insights, Ready aims to create a new category of relationship technology that supports users throughout their entire relationship journey, not just during the initial matching phase.
 
 ## Challenge
 

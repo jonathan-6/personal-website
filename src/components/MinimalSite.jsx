@@ -38,11 +38,11 @@ const MinimalSite = () => {
             </p>
 
             <p className="font-serif text-base mb-6">
-              {"I'm a product leader searching for my next role while advising early-stage startups. Most recently at Ready, I led development of AI-driven relationship tools, achieving industry-leading retention metrics. At Metalab and Deloitte, I built consumer and enterprise products that made complex technology accessible – from health tech to federal AI platforms."}
+              {"I build products that make complex technology feel simple and meaningful. Lately, I'm energized by products that aim to make a difference in the world. In an era where AI integration seems ubiquitous, I believe in keeping the end user's experience simple to deliver real value. Not everything needs to be a chatbot."}
             </p>
 
             <p className="font-serif text-base mb-6">
-              {"Building products has given me countless insights and memorable conversations. I've created this space to share these learnings and continue the dialogue."}
+              {"At Ready, I led development of AI-driven mental health and relationship tools, achieving industry-leading retention metrics. At Metalab and Deloitte, I built consumer and enterprise products that made complex technology accessible – from health tech to federal AI platforms."}
             </p>
           </div>
 

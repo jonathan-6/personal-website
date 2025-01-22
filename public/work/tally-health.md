@@ -32,7 +32,7 @@ Through research, we identified a few technical and user experience challenges t
 
 ## Approach
 
-## 1. Easy onboarding and testing experience
+## 1. Easy onboarding and biological age testing experience
 - Designed step-by-step kit registration and testing flow
 - Created clear visual instructions for sample collection
 - Ensured progressive onboarding with limited information per page
@@ -51,7 +51,7 @@ Through research, we identified a few technical and user experience challenges t
   <figcaption>Personalized action plans help users improve their biological age</figcaption>
 </figure>
 
-## 3. Seamless platform integration
+## 3. Seamless platform integration across ecomm, testing, results, and membership
 - Built custom Shopify integration handling: member-only product access, subscription management, automated fulfillment tracking
 - Implemented lab API integration for: real-time status updates, secure result transmission, quality control monitoring
 - Created content management system supporting: multi-format educational content, personalized recommendations, research updates
