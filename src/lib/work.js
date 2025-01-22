@@ -11,7 +11,19 @@ export async function getAllWork() {
   try {
     const response = await fetch('/work/index.json')
     const work = await response.json()
-    return work.sort((a, b) => (a.timeline > b.timeline ? -1 : 1))
+    return work.sort((a, b) => {
+      // Parse end dates from timeline (e.g., "May 2024 - Oct 2024")
+      const getEndDate = (timeline) => {
+        const endPart = timeline.split('-')[1].trim()
+        const [month, year] = endPart.split(' ')
+        return new Date(Date.parse(`${month} 1, ${year}`))
+      }
+
+      // Compare end dates for sorting
+      const dateA = getEndDate(a.timeline)
+      const dateB = getEndDate(b.timeline)
+      return dateB - dateA // Most recent first
+    })
   } catch (error) {
     console.error('Error loading work:', error)
     throw error
