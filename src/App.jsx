@@ -5,10 +5,16 @@ import BlogIndex from './routes/blog'
 import BlogPostPage from './routes/blog/[slug]'
 import WorkIndex from './routes/work'
 import WorkPage from './routes/work/[slug]'
+import { useTracking } from './hooks/useTracking';
+import { useScrollTracking } from './hooks/useScrollTracking';
+import Analytics from './components/analytics';
 
-function App() {
+function AppRoutes() {
+  useTracking(); // This now handles both script loading and tracking
+  useScrollTracking();
+  
   return (
-    <Router>
+    <>
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<MinimalSite />} />
@@ -17,8 +23,17 @@ function App() {
         <Route path="/work" element={<WorkIndex />} />
         <Route path="/work/:slug" element={<WorkPage />} />
       </Routes>
+    </>
+  );
+}
+
+function App() {
+  return (
+    <Router>
+      <Analytics />
+      <AppRoutes />
     </Router>
-  )
+  );
 }
 
 export default App
